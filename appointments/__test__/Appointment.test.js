@@ -69,6 +69,5 @@ describe('AppointmentsDayView', () => {
         const button = container.querySelectorAll('button')[0];
         ReactTestUtils.Simulate.click(button);
         expect(container.textContent).toMatch('Ashley');
-        // expect(container.querySelectorAll('li button')[0].type).toEqual('button')
     })
 })
